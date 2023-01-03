@@ -1,4 +1,4 @@
-## Preprocesando las bases de la ENAHO
+## Preprocesando las bases de la ENAHO-INEI
 # Limpiare y modificare los modulos de la ENAHO anual del 2019 con la finalidad de contar con las
 # principales variables que se usaran para la clasificacion
 

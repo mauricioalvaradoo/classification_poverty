@@ -1,5 +1,5 @@
-## Importando modulos de la Enaho-INEI
-# Se va a importar la informacion de la encuesta Encuesta Nacional de los Hogares (Enaho) realizado por Inei que
+## Importando modulos de la ENAHO-INEI
+# Se va a importar la informacion de la encuesta Encuesta Nacional de los Hogares (ENAHO) realizado por Inei que
 # se encuentra en sus microdatos http://iinei.inei.gob.pe/microdatos/. Este codigo es una adaptacion y extension
 # de uno creado y presentado en una clase por Angel Guillen y Erick Oré.
 
@@ -7,7 +7,7 @@ import pandas as pd
 from functions import scraping_inei
 
 
-# Todas las Enahos anuales con sus codigos
+# Todas las ENAHOs anuales con sus codigos
 Enaho_anual = {
     2004: "280", #0
     2005: "281", #1
