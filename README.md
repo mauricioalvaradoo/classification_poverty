@@ -29,7 +29,7 @@ Las principales conclusiones son las siguientes:
 ### Ajuste
 
 <p align="center">
-  <img src="figures/score.jpg" width="250">
+  <img src="figures/score.png" width="250">
 </p>
 
 ### ROC
