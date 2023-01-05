@@ -28,8 +28,8 @@ Las principales conclusiones son las siguientes:
 
 ### Figuras
 <p align="center">
-  <img src="figures/score.jpg" width="700">
+  <img src="figures/score.jpg" width="200">
 </p>
 <p align="center">
-  <img src="figures/roc.jpg" width="700">
+  <img src="figures/roc.png" width="200">
 </p>
