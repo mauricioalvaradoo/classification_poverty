@@ -26,10 +26,12 @@ Las principales conclusiones son las siguientes:
 3. **Con respecto al trade-off en la clasificación, medido por el ROC:**
 * Todos los modelos parecen tener un ROC muy similar, lo cual podría sugerir que los modelos encuentran un ratio de aciertos muy parecido. Esto validaría los resultados encontrados en el punto (2).
 
-### Figuras
+### Ajuste
 <p align="center">
-  <img src="figures/score.jpg" width="200">
+  <img src="figures/score.jpg" width="300">
 </p>
+
+### ROC
 <p align="center">
-  <img src="figures/roc.png" width="200">
+  <img src="figures/roc.png" width="500">
 </p>
