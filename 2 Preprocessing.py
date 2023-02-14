@@ -55,7 +55,7 @@ dta = dta.drop(["mes", "ubigeo", "conglome", "vivienda", "estrato", "codperso"],
 dta.head()
 
 
-"""""
+"""
 Las variables que quedan por el momento son las siguientes:
 
 # **edad**: edad
@@ -69,7 +69,7 @@ Las variables que quedan por el momento son las siguientes:
 # **pobreza**: dicotomica si es pobre o no
 # **area**: categorias donde están los que viven en zona urbana o rural
 
-"""""
+"""
 
 
 # Revision de las variables ======================================================
