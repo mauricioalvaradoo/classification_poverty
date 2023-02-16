@@ -10,7 +10,7 @@ Mediante nueve algoritmos diferentes, se buscó clasificar a las personas que se
 8. XGBoost
 9. Naive Bayes
 
-## Pasos tomados
+## Pasos
 1. Se extrajo los módulos requeridos en los [microdatos](https://iinei.inei.gob.pe/microdatos/) de INEI.
 2. Se transformó, creó y exploró las variables de interés de tal manera que puedan ser estimadas en sus respectivos algoritmos.
 3. Finalmente, se dividió la base de datos en 2 sets diferentes: entrenamiento y testing. Con el primer set de valores se realizó el entrenamiento de los modelos para conseguir los coeficientes asociados a cada variable. Los hiperparámetros fueron conseguidos mediante GridSearchCV. Con el segundo set se midió el ajuste que tiene cada modelo con respecto a estos nuevos insumos.
