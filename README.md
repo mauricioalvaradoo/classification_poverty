@@ -39,7 +39,7 @@ Las principales conclusiones son las siguientes:
   <img src="figures/score.png" width="400">
 </p>
 <p align="center">
-  <img src="figures/matrices de confusión.png" width="400">
+  <img src="figures/matrices de confusión.png" width="500">
 </p>
 <p align="center">
   <img src="figures/roc.png" width="500">
