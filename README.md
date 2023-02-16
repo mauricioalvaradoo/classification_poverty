@@ -18,8 +18,8 @@ Mediante seis algoritmos diferentes, se buscó clasificar a las personas en situ
 ## Resultados
 Las principales conclusiones son las siguientes:
 1. **Relaciones esperadas**:
-* La edad, contar con estudios superiores, haber estudiado en colegio privado, vivir en zona urbana y contar con mayores ingresos reducen las probabilidades reducen las probabilidad de encontrarse en situación de pobreza.
-* El ser hombre vuelve más probable encontrarse en situación de pobreza.
+  * La edad, contar con estudios superiores, haber estudiado en colegio privado, vivir en zona urbana y contar con mayores ingresos reducen las probabilidades reducen las probabilidad de encontrarse en situación de pobreza.
+  * El ser hombre vuelve más probable encontrarse en situación de pobreza.
 
 2. **En términos de ajuste**:
 * El modelo de Decisión Tree, regresión logística y redes neuronales son los de mayor ajuste.
