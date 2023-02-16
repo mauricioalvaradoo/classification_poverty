@@ -1,5 +1,5 @@
 # Estimación de modelos de clasificación con la ENAHO del 2019
-Mediante seis algoritmos diferentes, se buscó clasificar a las personas en situación en pobreza. Se usó los siguientes modelos:
+Mediante nueve algoritmos diferentes, se buscó clasificar a las personas que se encuentran o no en situación en pobreza. Se estimó un modelo por cada algoritmo:
 1. Modelo de Regresión lineal
 2. Modelo de Regresión logística
 3. K-NN
@@ -10,10 +10,10 @@ Mediante seis algoritmos diferentes, se buscó clasificar a las personas en situ
 8. XGBoost
 9. Naive Bayes
 
-## Procesamiento de los datos
-1. Se extrajo el módulo requerido en los [microdatos](https://iinei.inei.gob.pe/microdatos/) de INEI.
+## Pasos tomados
+1. Se extrajo los módulos requeridos en los [microdatos](https://iinei.inei.gob.pe/microdatos/) de INEI.
 2. Se transformó, creó y exploró las variables de interés de tal manera que puedan ser estimadas en sus respectivos algoritmos.
-3. Finalmente, se dividió la base de datos en 2 sets diferentes: entrenamiento y testing. Con el primer set de valores se realizó el entrenamiento de los modelos para conseguir los parámetros asociados a cada explicativa. Con el segundo set se estimó el ajuste que tiene cada modelo con respecto a nuevos insumos. 
+3. Finalmente, se dividió la base de datos en 2 sets diferentes: entrenamiento y testing. Con el primer set de valores se realizó el entrenamiento de los modelos para conseguir los coeficientes asociados a cada variable. Con el segundo set se midió el ajuste que tiene cada modelo con respecto a estos nuevos insumos.
 
 ## Resultados
 Las principales conclusiones son las siguientes:
