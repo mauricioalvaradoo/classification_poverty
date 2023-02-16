@@ -29,11 +29,11 @@ Las principales conclusiones son las siguientes:
 
 **Métricas de asimetría**:
 * La métrica de _precision_, asociada a la cantidad de 1 que se aciertan dado el total de estimaciones que asignan 1, muestra que el Naive Bayes, XGBoost y Decision tree son los algoritmos que menos erran al asignar 1.
-* La métrica de _recall_, asociada a la cantidad de 1 que se aciertan dado los verdaderos 1, muestran que la regresión final, acierta casi con 100% de efectividad. Los siguen los demás con 90% de aciertos todos. Este resultado que muchos de los modelos sobre estima los valores de 1, debido al desbalance que hay en la base de datos.
+* La métrica de _recall_, asociada a la cantidad de 1 que se aciertan dado los verdaderos 1, muestran que la regresión final, acierta casi con 100% de efectividad. Los siguen los demás con 90% de aciertos todos. Este resultado que muchos de los modelos sobre estima los valores de 1, debido al desbalance que hay en la base de datos. Además, se refuerza con su matriz de confusión donde se asigna 1 en casi todos los casos.
 * La métrica de _F1-Score_, el cual combina ambas métricas, dan resultados consistentes a los encontrados al de ajuste.
 
-**Con respecto al trade-off en la clasificación, medido por el ROC:**
-* Todos los modelos parecen tener un ROC muy similar, lo cual podría sugerir que los modelos encuentran un ratio de aciertos muy parecido. Esto validaría los resultados encontrados en el punto (2).
+**Con respecto al trade-off en la asignación de verdaderos, medido por el ROC:**
+* Todos los modelos parecen tener un ROC muy similar, lo cual podría sugerir que los modelos encuentran un ratio de aciertos muy parecido. No obstante, el modelo que resalta nuevamente es el XGBoost con un AUC mayor. El SVM demuestra ser el peor bajo este criterio.
 
 <p align="center">
   <img src="figures/score.png" width="400">
