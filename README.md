@@ -17,7 +17,7 @@ Mediante seis algoritmos diferentes, se buscó clasificar a las personas en situ
 
 ## Resultados
 Las principales conclusiones son las siguientes:
-1. **Relaciones esperadas**: Sobre la probabilidad:
+1. **Relaciones esperadas**:
 * La edad, contar con estudios superiores, haber estudiado en colegio privado, vivir en zona urbana y contar con mayores ingresos reducen las probabilidades reducen las probabilidad de encontrarse en situación de pobreza.
 * El ser hombre vuelve más probable encontrarse en situación de pobreza.
 
@@ -26,7 +26,9 @@ Las principales conclusiones son las siguientes:
 * El modelo lineal, pese a no ser un algoritmo de clasificación, parece tener un buen ajuste.
 * En general, las diferente de `score` son muy pequeños entre todos los algoritmos.
 
-3. **Con respecto al trade-off en la clasificación, medido por el ROC:**
+3. **Métricas de asimetría**:
+
+4. **Con respecto al trade-off en la clasificación, medido por el ROC:**
 * Todos los modelos parecen tener un ROC muy similar, lo cual podría sugerir que los modelos encuentran un ratio de aciertos muy parecido. Esto validaría los resultados encontrados en el punto (2).
 
 <p align="center">
