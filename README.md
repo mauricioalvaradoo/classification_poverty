@@ -6,13 +6,16 @@ Mediante seis algoritmos diferentes, se buscó clasificar a las personas en situ
 4. Decision Trees
 5. Random Forest
 6. Redes neuronales
+7. SVM
+8. XGBoost
+9. Naive Bayes
 
-El primer paso fue la extracción de los datos. Mediante una función se extrajo el módulo requerido en la base de datos de INEI: https://iinei.inei.gob.pe/microdatos/
-
+## Procesamiento de los datos
+El primer paso fue la extracción de los datos. Mediante una función se extrajo el módulo requerido en los [microdatos](https://iinei.inei.gob.pe/microdatos/) de INEI.
 Segundo, se transformó, creó y exploró las variables de interés de tal manera que puedan ser estimadas en sus respectivos algoritmos.
-
 Finalmente, se dividió la base de datos en 2 sets diferentes: entrenamiento y testing. Con el primer set de valores se realizó el entrenamiento de los modelos para conseguir los parámetros asociados a cada explicativa. Con el segundo set se estimó el ajuste que tiene cada modelo con respecto a nuevos insumos. 
 
+## Resultados
 Las principales conclusiones son las siguientes:
 1. **Relaciones esperadas**: Sobre la probabilidad:
 * La edad, contar con estudios superiores, haber estudiado en colegio privado, vivir en zona urbana y contar con mayores ingresos reducen las probabilidades reducen las probabilidad de encontrarse en situación de pobreza.
